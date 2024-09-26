@@ -19,19 +19,21 @@ const products = [
 ];
 
 // Get all products
-router.get("/", (req, res) => {
+router.get("/", (req, res, next) => {
   res.json({ products });
 });
 
 // Get a single product by ID
-router.get("/:id", (req, res) => {
+router.get("/:id", (req, res, next) => {
   const productId = parseInt(req.params.id, 10);
   const product = products.find((p) => p.id === productId);
-  if (product) {
-    res.json(product);
-  } else {
-    res.status(404).json({ message: "Product not found" });
+  if (!product) {
+    // If product is not found, create an error and pass it to the error-handling middleware
+    const error = new Error("Product not found!");
+    error.status = 404;
+    return next(error);
   }
+  res.json(product);
 });
 
 // Create a new product (Protected route)

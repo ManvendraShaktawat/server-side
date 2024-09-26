@@ -1,8 +1,11 @@
 const express = require("express");
 const session = require("express-session");
+
 const userRoutes = require("./routes/users");
-// const productRoutes = require("./routes/products");
-// const authMiddleware = require("./middlewares/authMiddleware");
+const productRoutes = require("./routes/products");
+
+const authMiddleware = require("./middlewares/authMiddleware");
+const errorHandler = require("./middlewares/errorHandler");
 
 const app = express();
 
@@ -50,10 +53,13 @@ app.use(
 app.use("/api/users", userRoutes);
 
 // Apply authMiddleware globally to protect all other routes
-// app.use(authMiddleware);
+app.use(authMiddleware);
 
-// Product routes (Protected)
-// app.use("/api/products", productRoutes);
+// Protected routes
+app.use("/api/products", productRoutes);
+
+// Error Handling Middleware (triggered in product.js - router.get("/:id")
+app.use(errorHandler);
 
 app.listen(PORT, () => {
   console.log("Server is running at ", PORT);

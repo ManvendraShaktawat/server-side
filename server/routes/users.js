@@ -32,7 +32,7 @@ router.post("/login", async (req, res) => {
   res.json({ message: "User logged in successfully!" });
 });
 
-router.get("/check-auth", (req, res) => {
+router.get("/check-session", (req, res) => {
   if (req.session.userId) {
     res.json({
       message: "User is currently logged in!",

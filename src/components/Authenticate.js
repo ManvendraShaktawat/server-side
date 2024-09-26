@@ -5,6 +5,10 @@ function Auth({ isAuthticated, setIsAuthticated }) {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
 
+  React.useEffect(() => {
+    handleCheckSession();
+  }, []);
+
   const handleLogin = () => {
     fetch("/api/users/login", {
       method: "POST",
@@ -21,9 +25,14 @@ function Auth({ isAuthticated, setIsAuthticated }) {
       .catch((err) => console.error(err));
   };
 
-  const handleCheckAuth = () => {
-    fetch("/api/users/check-auth")
-      .then((res) => res.json())
+  const handleCheckSession = () => {
+    fetch("/api/users/check-session")
+      .then((res) => {
+        if (res.status === 200) {
+          setIsAuthticated(true);
+        }
+        return res.json();
+      })
       .then((data) => setAuthMessage(data.message))
       .catch((err) => console.error(err));
   };
@@ -61,8 +70,6 @@ function Auth({ isAuthticated, setIsAuthticated }) {
             <button onClick={handleLogin}>Login</button>
           </>
         )}
-        <br />
-        <button onClick={handleCheckAuth}>Check Authentication</button>
         {isAuthticated && <button onClick={handleLogout}>Logout</button>}
       </div>
     </div>
