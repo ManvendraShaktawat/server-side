@@ -1,15 +1,19 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import { fetchAuthToken } from "./Authenticate";
 
 const ProductsList = () => {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
     const fetchProducts = async () => {
-      const response = await fetch("/api/products");
-      console.log(response);
+      const token = fetchAuthToken();
+      const response = await fetch("/api/products", {
+        headers: {
+          authorisation: token,
+        },
+      });
       const data = await response.json();
-      console.log(data);
       setProducts(data.products);
     };
     fetchProducts();

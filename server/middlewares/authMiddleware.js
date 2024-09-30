@@ -1,4 +1,6 @@
 /**
+ * Deprecated
+ *
  * We can apply this authMiddleware in 2 ways:
  * 1. Specifically to a route (app.get, app.post, etc.)
  * 2. Globally (app.use)

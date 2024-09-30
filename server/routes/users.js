@@ -1,7 +1,8 @@
 const express = require("express");
 const router = express.Router();
 const bcrypt = require("bcrypt");
-const authMiddleware = require("../middlewares/authMiddleware");
+const jwt = require("jsonwebtoken");
+const jwtAuthMiddleware = require("../middlewares/jwtAuthMiddleware");
 
 // Mock database (replace with real DB in production)
 const users = [
@@ -28,9 +29,19 @@ router.post("/login", async (req, res) => {
     return res.status(400).json({ message: "Incorrect password!" });
   }
 
-  req.session.userId = user.id;
-  res.json({ message: "User logged in successfully!" });
+  // req.session.userId = user.id; - deprecated
+  const token = jwt.sign(
+    { userId: user.id, username: user.username },
+    "secret key",
+    {
+      expiresIn: "1h",
+    }
+  );
+  res.json({ token, message: "Login successful!" });
 });
+
+/*
+Deprecated check-session handling, where server-side session was maintained
 
 router.get("/check-session", (req, res) => {
   if (req.session.userId) {
@@ -42,20 +53,36 @@ router.get("/check-session", (req, res) => {
     res.status(401).json({ message: "User is not logged in!" });
   }
 });
+*/
 
-/* Please note that we have made our 'logout' as a protected route,
- *  i.e., only authenticated users are allowed to use it
- */
-router.get("/logout", authMiddleware, (req, res) => {
-  // req.session.destroy() handles session removal on the server side
+/* New handling with stateless JWT */
+router.get("/check-session", jwtAuthMiddleware, (req, res) => {
+  res.json({
+    message: "User is currently logged in!",
+    user: req.user,
+  });
+});
+
+/*
+Deprecated logout handling, where server-side session was maintained
+
+router.get("/logout", (req, res) => {
   req.session.destroy((err) => {
     if (err) {
       res.status(500).json({ message: "Error logging out!" });
     }
-    // res.clearCookie() ensures that the client-side cookie is also cleared (complete cleanup of stale cookies)
     res.clearCookie("connect.sid");
     res.json({ message: "Logged out successfully!" });
   });
+});
+*/
+
+/* New handling with stateless JWT */
+router.post("/logout", (req, res) => {
+  // Since we're stateless, we don't need to destroy a session.
+  // If token blacklisting is implemented, you would add the token to the blacklist here.
+
+  res.json({ message: "Logged out successfully!" });
 });
 
 /*

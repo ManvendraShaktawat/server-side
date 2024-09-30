@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import { fetchAuthToken } from "./Authenticate";
 
 const NewProduct = () => {
   const [name, setName] = useState("");
@@ -9,9 +10,11 @@ const NewProduct = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    const token = fetchAuthToken();
     const response = await fetch("/api/products", {
       method: "POST",
       headers: {
+        authorisation: token,
         "Content-Type": "application/json",
       },
       body: JSON.stringify({ name, price, description }),

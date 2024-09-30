@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
+import { fetchAuthToken } from "./Authenticate";
 
 const ProductDetail = () => {
   const { id } = useParams();
@@ -7,7 +8,12 @@ const ProductDetail = () => {
 
   useEffect(() => {
     const fetchProduct = async () => {
-      const response = await fetch(`/api/products/${id}`);
+      const token = fetchAuthToken();
+      const response = await fetch(`/api/products/${id}`, {
+        headers: {
+          authorisation: token,
+        },
+      });
       const data = await response.json();
       setProduct(data);
     };

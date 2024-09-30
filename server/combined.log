@@ -1,0 +1,272 @@
+{"body":{},"level":"info","message":"GET /api/users/check-session","method":"GET","params":{},"query":{},"timestamp":"2024-09-26T15:39:19.436Z","url":"/api/users/check-session"}
+{"body":{"password":"password123","username":"john"},"level":"info","message":"POST /api/users/login","method":"POST","params":{},"query":{},"timestamp":"2024-09-26T15:39:36.352Z","url":"/api/users/login"}
+{"body":{},"level":"info","message":"GET /api/products/10","method":"GET","params":{},"query":{},"timestamp":"2024-09-26T15:39:36.454Z","url":"/api/products/10"}
+{"level":"error","message":"Product not found!","metadata":{"status":404},"timestamp":"2024-09-26T15:39:36.455Z"}
+{"body":{},"level":"info","message":"GET /api/products","method":"GET","params":{},"query":{},"timestamp":"2024-09-26T15:42:54.409Z","url":"/api/products"}
+{"body":{},"level":"info","message":"GET /api/users/check-session","method":"GET","params":{},"query":{},"timestamp":"2024-09-27T05:34:08.039Z","url":"/api/users/check-session"}
+{"body":{"password":"password123","username":"john"},"level":"info","message":"POST /api/users/login","method":"POST","params":{},"query":{},"timestamp":"2024-09-27T05:34:25.352Z","url":"/api/users/login"}
+{"body":{},"level":"info","message":"GET /api/products","method":"GET","params":{},"query":{},"timestamp":"2024-09-27T05:34:25.464Z","url":"/api/products"}
+{"body":{},"level":"info","message":"GET /api/products/2","method":"GET","params":{},"query":{},"timestamp":"2024-09-27T05:34:32.027Z","url":"/api/products/2"}
+{"body":{},"level":"info","message":"GET /api/products","method":"GET","params":{},"query":{},"timestamp":"2024-09-27T05:34:35.747Z","url":"/api/products"}
+{"body":{},"level":"info","message":"GET /api/products","method":"GET","params":{},"query":{},"timestamp":"2024-09-27T05:34:39.377Z","url":"/api/products"}
+{"body":{},"level":"info","message":"GET /api/products/3","method":"GET","params":{},"query":{},"timestamp":"2024-09-27T05:34:40.696Z","url":"/api/products/3"}
+{"body":{},"level":"info","message":"GET /api/users/logout","method":"GET","params":{},"query":{},"timestamp":"2024-09-27T05:34:50.182Z","url":"/api/users/logout"}
+{"body":{},"level":"info","message":"GET /manifest.json","method":"GET","params":{},"query":{},"timestamp":"2024-09-27T06:22:22.216Z","url":"/manifest.json"}
+{"level":"error","message":"req.headers is not a function","metadata":{},"timestamp":"2024-09-27T06:22:22.219Z"}
+{"body":{},"level":"info","message":"GET /static/js/bundle.js.map","method":"GET","params":{},"query":{},"timestamp":"2024-09-27T06:22:22.315Z","url":"/static/js/bundle.js.map"}
+{"level":"error","message":"req.headers is not a function","metadata":{},"timestamp":"2024-09-27T06:22:22.315Z"}
+{"body":{},"level":"info","message":"GET /","method":"GET","params":{},"query":{},"timestamp":"2024-09-27T06:22:26.920Z","url":"/"}
+{"level":"error","message":"req.headers is not a function","metadata":{},"timestamp":"2024-09-27T06:22:26.921Z"}
+{"body":{},"level":"info","message":"GET /","method":"GET","params":{},"query":{},"timestamp":"2024-09-27T06:22:45.908Z","url":"/"}
+{"level":"error","message":"req.headers is not a function","metadata":{},"timestamp":"2024-09-27T06:22:45.909Z"}
+{"body":{},"level":"info","message":"GET /","method":"GET","params":{},"query":{},"timestamp":"2024-09-27T06:23:40.541Z","url":"/"}
+{"body":{},"level":"info","message":"GET /api/users","method":"GET","params":{},"query":{},"timestamp":"2024-09-27T06:25:48.232Z","url":"/api/users"}
+{"body":{},"level":"info","message":"GET /api/users/login","method":"GET","params":{},"query":{},"timestamp":"2024-09-27T06:25:52.874Z","url":"/api/users/login"}
+{"body":{},"level":"info","message":"GET /api/users/logins","method":"GET","params":{},"query":{},"timestamp":"2024-09-27T06:28:04.844Z","url":"/api/users/logins"}
+{"body":{},"level":"info","message":"GET /api/users/login","method":"GET","params":{},"query":{},"timestamp":"2024-09-27T06:28:08.606Z","url":"/api/users/login"}
+{"body":{},"level":"info","message":"GET /api/users/login","method":"GET","params":{},"query":{},"timestamp":"2024-09-27T06:29:41.550Z","url":"/api/users/login"}
+{"body":{},"level":"info","message":"GET /api/users/login","method":"GET","params":{},"query":{},"timestamp":"2024-09-27T06:29:43.646Z","url":"/api/users/login"}
+{"body":{},"level":"info","message":"GET /api/users/check-session","method":"GET","params":{},"query":{},"timestamp":"2024-09-27T06:30:01.081Z","url":"/api/users/check-session"}
+{"body":{},"level":"info","message":"GET /api/users/check-session","method":"GET","params":{},"query":{},"timestamp":"2024-09-27T06:30:20.511Z","url":"/api/users/check-session"}
+{"body":{},"level":"info","message":"GET /api/users/check-session","method":"GET","params":{},"query":{},"timestamp":"2024-09-27T06:30:21.406Z","url":"/api/users/check-session"}
+{"body":{"password":"","username":"john"},"level":"info","message":"POST /api/users/login","method":"POST","params":{},"query":{},"timestamp":"2024-09-27T06:30:32.771Z","url":"/api/users/login"}
+{"body":{"password":"password123","username":"john"},"level":"info","message":"POST /api/users/login","method":"POST","params":{},"query":{},"timestamp":"2024-09-27T06:30:38.973Z","url":"/api/users/login"}
+{"body":{},"level":"info","message":"GET /api/products","method":"GET","params":{},"query":{},"timestamp":"2024-09-27T06:31:11.894Z","url":"/api/products"}
+{"body":{},"level":"info","message":"GET /api/users/check-session","method":"GET","params":{},"query":{},"timestamp":"2024-09-27T06:37:50.907Z","url":"/api/users/check-session"}
+{"body":{},"level":"info","message":"GET /api/users/check-session","method":"GET","params":{},"query":{},"timestamp":"2024-09-27T06:41:19.671Z","url":"/api/users/check-session"}
+{"body":{"password":"password123","username":"john"},"level":"info","message":"POST /api/users/login","method":"POST","params":{},"query":{},"timestamp":"2024-09-27T06:41:36.124Z","url":"/api/users/login"}
+{"body":{},"level":"info","message":"GET /api/products","method":"GET","params":{},"query":{},"timestamp":"2024-09-27T06:41:36.235Z","url":"/api/products"}
+{"body":{},"level":"info","message":"GET /api/users/check-session","method":"GET","params":{},"query":{},"timestamp":"2024-09-27T06:43:31.938Z","url":"/api/users/check-session"}
+{"body":{},"level":"info","message":"GET /api/users/check-session","method":"GET","params":{},"query":{},"timestamp":"2024-09-27T06:43:39.066Z","url":"/api/users/check-session"}
+{"body":{"password":"password123","username":"john"},"level":"info","message":"POST /api/users/login","method":"POST","params":{},"query":{},"timestamp":"2024-09-27T06:43:51.211Z","url":"/api/users/login"}
+{"body":{},"level":"info","message":"GET /api/products","method":"GET","params":{},"query":{},"timestamp":"2024-09-27T06:43:51.322Z","url":"/api/products"}
+{"body":{},"level":"info","message":"GET /api/users/check-session","method":"GET","params":{},"query":{},"timestamp":"2024-09-27T06:45:13.992Z","url":"/api/users/check-session"}
+{"body":{"password":"password123","username":"john"},"level":"info","message":"POST /api/users/login","method":"POST","params":{},"query":{},"timestamp":"2024-09-27T06:45:22.272Z","url":"/api/users/login"}
+{"body":{},"level":"info","message":"GET /api/products","method":"GET","params":{},"query":{},"timestamp":"2024-09-27T06:45:22.382Z","url":"/api/products"}
+{"body":{},"level":"info","message":"GET /api/users/check-session","method":"GET","params":{},"query":{},"timestamp":"2024-09-27T06:45:50.361Z","url":"/api/users/check-session"}
+{"body":{},"level":"info","message":"GET /api/users/check-session","method":"GET","params":{},"query":{},"timestamp":"2024-09-27T06:45:59.208Z","url":"/api/users/check-session"}
+{"body":{"password":"password123","username":"john"},"level":"info","message":"POST /api/users/login","method":"POST","params":{},"query":{},"timestamp":"2024-09-27T06:46:06.222Z","url":"/api/users/login"}
+{"body":{},"level":"info","message":"GET /api/products","method":"GET","params":{},"query":{},"timestamp":"2024-09-27T06:46:06.332Z","url":"/api/products"}
+{"body":{},"level":"info","message":"GET /api/products/1","method":"GET","params":{},"query":{},"timestamp":"2024-09-27T06:46:18.281Z","url":"/api/products/1"}
+{"body":{},"level":"info","message":"GET /api/users/check-session","method":"GET","params":{},"query":{},"timestamp":"2024-09-27T06:47:16.569Z","url":"/api/users/check-session"}
+{"body":{},"level":"info","message":"GET /api/users/check-session","method":"GET","params":{},"query":{},"timestamp":"2024-09-27T06:48:10.732Z","url":"/api/users/check-session"}
+{"body":{},"level":"info","message":"GET /api/users/check-session","method":"GET","params":{},"query":{},"timestamp":"2024-09-27T07:02:44.897Z","url":"/api/users/check-session"}
+{"body":{},"level":"info","message":"GET /api/users/check-session","method":"GET","params":{},"query":{},"timestamp":"2024-09-27T07:02:53.894Z","url":"/api/users/check-session"}
+{"body":{},"level":"info","message":"GET /api/users/check-session","method":"GET","params":{},"query":{},"timestamp":"2024-09-27T07:03:09.018Z","url":"/api/users/check-session"}
+{"body":{},"level":"info","message":"GET /api/products/1","method":"GET","params":{},"query":{},"timestamp":"2024-09-27T07:03:09.040Z","url":"/api/products/1"}
+{"body":{},"level":"info","message":"GET /api/users/check-session","method":"GET","params":{},"query":{},"timestamp":"2024-09-27T07:03:12.694Z","url":"/api/users/check-session"}
+{"body":{},"level":"info","message":"GET /api/products/1","method":"GET","params":{},"query":{},"timestamp":"2024-09-27T07:03:12.707Z","url":"/api/products/1"}
+{"body":{},"level":"info","message":"GET /api/users/logout","method":"GET","params":{},"query":{},"timestamp":"2024-09-27T07:03:14.838Z","url":"/api/users/logout"}
+{"body":{},"level":"info","message":"GET /api/users/check-session","method":"GET","params":{},"query":{},"timestamp":"2024-09-27T07:03:16.052Z","url":"/api/users/check-session"}
+{"body":{},"level":"info","message":"GET /api/products/1","method":"GET","params":{},"query":{},"timestamp":"2024-09-27T07:03:16.067Z","url":"/api/products/1"}
+{"body":{},"level":"info","message":"GET /api/products/1","method":"GET","params":{},"query":{},"timestamp":"2024-09-27T07:07:04.889Z","url":"/api/products/1"}
+{"body":{},"level":"info","message":"GET /api/users/check-session","method":"GET","params":{},"query":{},"timestamp":"2024-09-27T07:07:04.891Z","url":"/api/users/check-session"}
+{"body":{},"level":"info","message":"GET /api/products/1","method":"GET","params":{},"query":{},"timestamp":"2024-09-27T07:07:41.888Z","url":"/api/products/1"}
+{"body":{},"level":"info","message":"GET /api/users/check-session","method":"GET","params":{},"query":{},"timestamp":"2024-09-27T07:07:41.890Z","url":"/api/users/check-session"}
+{"body":{},"level":"info","message":"GET /api/products/1","method":"GET","params":{},"query":{},"timestamp":"2024-09-27T07:08:14.886Z","url":"/api/products/1"}
+{"body":{},"level":"info","message":"GET /api/users/check-session","method":"GET","params":{},"query":{},"timestamp":"2024-09-27T07:08:14.889Z","url":"/api/users/check-session"}
+{"body":{},"level":"info","message":"GET /api/users/check-session","method":"GET","params":{},"query":{},"timestamp":"2024-09-27T07:08:31.614Z","url":"/api/users/check-session"}
+{"body":{},"level":"info","message":"GET /api/products/1","method":"GET","params":{},"query":{},"timestamp":"2024-09-27T07:08:31.631Z","url":"/api/products/1"}
+{"body":{},"level":"info","message":"GET /api/users/check-session","method":"GET","params":{},"query":{},"timestamp":"2024-09-27T07:08:32.574Z","url":"/api/users/check-session"}
+{"body":{},"level":"info","message":"GET /api/products/1","method":"GET","params":{},"query":{},"timestamp":"2024-09-27T07:08:32.588Z","url":"/api/products/1"}
+{"body":{},"level":"info","message":"POST /api/users/logout","method":"POST","params":{},"query":{},"timestamp":"2024-09-27T07:08:34.365Z","url":"/api/users/logout"}
+{"body":{},"level":"info","message":"GET /api/users/check-session","method":"GET","params":{},"query":{},"timestamp":"2024-09-27T07:08:38.591Z","url":"/api/users/check-session"}
+{"body":{},"level":"info","message":"GET /api/users/check-session","method":"GET","params":{},"query":{},"timestamp":"2024-09-27T07:08:39.296Z","url":"/api/users/check-session"}
+{"body":{},"level":"info","message":"GET /api/users/check-session","method":"GET","params":{},"query":{},"timestamp":"2024-09-27T07:08:40.835Z","url":"/api/users/check-session"}
+{"body":{},"level":"info","message":"GET /api/users/check-session","method":"GET","params":{},"query":{},"timestamp":"2024-09-27T07:09:29.371Z","url":"/api/users/check-session"}
+{"body":{},"level":"info","message":"GET /api/users/check-session","method":"GET","params":{},"query":{},"timestamp":"2024-09-27T07:09:47.024Z","url":"/api/users/check-session"}
+{"body":{},"level":"info","message":"GET /api/users/check-session","method":"GET","params":{},"query":{},"timestamp":"2024-09-27T07:09:53.905Z","url":"/api/users/check-session"}
+{"body":{},"level":"info","message":"GET /api/users/check-session","method":"GET","params":{},"query":{},"timestamp":"2024-09-27T07:10:20.166Z","url":"/api/users/check-session"}
+{"body":{},"level":"info","message":"GET /api/users/check-session","method":"GET","params":{},"query":{},"timestamp":"2024-09-27T07:10:21.269Z","url":"/api/users/check-session"}
+{"body":{},"level":"info","message":"GET /api/users/check-session","method":"GET","params":{},"query":{},"timestamp":"2024-09-27T07:12:19.154Z","url":"/api/users/check-session"}
+{"body":{},"level":"info","message":"GET /api/users/check-session","method":"GET","params":{},"query":{},"timestamp":"2024-09-27T07:12:20.214Z","url":"/api/users/check-session"}
+{"body":{"password":"password123","username":"john"},"level":"info","message":"POST /api/users/login","method":"POST","params":{},"query":{},"timestamp":"2024-09-27T07:12:31.032Z","url":"/api/users/login"}
+{"body":{},"level":"info","message":"GET /api/products/1","method":"GET","params":{},"query":{},"timestamp":"2024-09-27T07:12:31.140Z","url":"/api/products/1"}
+{"body":{},"level":"info","message":"GET /api/products","method":"GET","params":{},"query":{},"timestamp":"2024-09-27T07:12:41.891Z","url":"/api/products"}
+{"body":{},"level":"info","message":"GET /api/products","method":"GET","params":{},"query":{},"timestamp":"2024-09-27T07:12:57.708Z","url":"/api/products"}
+{"body":{},"level":"info","message":"GET /api/products","method":"GET","params":{},"query":{},"timestamp":"2024-09-27T07:13:04.589Z","url":"/api/products"}
+{"body":{},"level":"info","message":"GET /api/products/1","method":"GET","params":{},"query":{},"timestamp":"2024-09-27T07:13:05.994Z","url":"/api/products/1"}
+{"body":{},"level":"info","message":"GET /api/products","method":"GET","params":{},"query":{},"timestamp":"2024-09-27T07:13:08.746Z","url":"/api/products"}
+{"body":{},"level":"info","message":"GET /api/products/2","method":"GET","params":{},"query":{},"timestamp":"2024-09-27T07:13:09.777Z","url":"/api/products/2"}
+{"body":{},"level":"info","message":"GET /api/products","method":"GET","params":{},"query":{},"timestamp":"2024-09-27T07:13:11.408Z","url":"/api/products"}
+{"body":{},"level":"info","message":"GET /api/products/3","method":"GET","params":{},"query":{},"timestamp":"2024-09-27T07:13:13.109Z","url":"/api/products/3"}
+{"body":{},"level":"info","message":"GET /api/products","method":"GET","params":{},"query":{},"timestamp":"2024-09-27T07:13:14.707Z","url":"/api/products"}
+{"body":{"description":"dfvsdfb","name":"xyz","price":"234"},"level":"info","message":"POST /api/products","method":"POST","params":{},"query":{},"timestamp":"2024-09-27T07:13:23.350Z","url":"/api/products"}
+{"body":{},"level":"info","message":"GET /api/products","method":"GET","params":{},"query":{},"timestamp":"2024-09-27T07:13:23.371Z","url":"/api/products"}
+{"body":{},"level":"info","message":"GET /api/products/4","method":"GET","params":{},"query":{},"timestamp":"2024-09-27T07:13:26.033Z","url":"/api/products/4"}
+{"body":{},"level":"info","message":"GET /api/products","method":"GET","params":{},"query":{},"timestamp":"2024-09-27T07:13:28.423Z","url":"/api/products"}
+{"body":{},"level":"info","message":"GET /api/products/4","method":"GET","params":{},"query":{},"timestamp":"2024-09-27T07:13:30.976Z","url":"/api/products/4"}
+{"body":{},"level":"info","message":"GET /api/products","method":"GET","params":{},"query":{},"timestamp":"2024-09-27T07:13:33.681Z","url":"/api/products"}
+{"body":{},"level":"info","message":"POST /api/users/logout","method":"POST","params":{},"query":{},"timestamp":"2024-09-27T07:13:37.031Z","url":"/api/users/logout"}
+{"body":{"password":"password123","username":"john"},"level":"info","message":"POST /api/users/login","method":"POST","params":{},"query":{},"timestamp":"2024-09-27T07:13:41.322Z","url":"/api/users/login"}
+{"body":{},"level":"info","message":"GET /api/products","method":"GET","params":{},"query":{},"timestamp":"2024-09-27T07:13:41.429Z","url":"/api/products"}
+{"body":{},"level":"info","message":"GET /api/users/check-session","method":"GET","params":{},"query":{},"timestamp":"2024-09-27T07:17:14.494Z","url":"/api/users/check-session"}
+{"body":{},"level":"info","message":"GET /api/products","method":"GET","params":{},"query":{},"timestamp":"2024-09-27T07:17:14.506Z","url":"/api/products"}
+{"body":{},"level":"info","message":"GET /api/products","method":"GET","params":{},"query":{},"timestamp":"2024-09-27T07:19:15.719Z","url":"/api/products"}
+{"body":{},"level":"info","message":"GET /api/users/check-session","method":"GET","params":{},"query":{},"timestamp":"2024-09-27T07:19:15.721Z","url":"/api/users/check-session"}
+{"body":{},"level":"info","message":"GET /api/users/check-session","method":"GET","params":{},"query":{},"timestamp":"2024-09-27T07:19:22.477Z","url":"/api/users/check-session"}
+{"body":{},"level":"info","message":"GET /api/products","method":"GET","params":{},"query":{},"timestamp":"2024-09-27T07:19:22.491Z","url":"/api/products"}
+{"body":{},"level":"info","message":"POST /api/users/logout","method":"POST","params":{},"query":{},"timestamp":"2024-09-27T07:19:24.213Z","url":"/api/users/logout"}
+{"body":{"password":"password123","username":"john"},"level":"info","message":"POST /api/users/login","method":"POST","params":{},"query":{},"timestamp":"2024-09-27T07:19:33.608Z","url":"/api/users/login"}
+{"body":{},"level":"info","message":"GET /api/products","method":"GET","params":{},"query":{},"timestamp":"2024-09-27T07:19:33.716Z","url":"/api/products"}
+{"body":{},"level":"info","message":"GET /api/products/2","method":"GET","params":{},"query":{},"timestamp":"2024-09-27T07:19:38.720Z","url":"/api/products/2"}
+{"body":{},"level":"info","message":"GET /api/products","method":"GET","params":{},"query":{},"timestamp":"2024-09-27T07:19:40.946Z","url":"/api/products"}
+{"body":{},"level":"info","message":"POST /api/users/logout","method":"POST","params":{},"query":{},"timestamp":"2024-09-27T07:19:42.525Z","url":"/api/users/logout"}
+{"body":{"password":"password123","username":"john"},"level":"info","message":"POST /api/users/login","method":"POST","params":{},"query":{},"timestamp":"2024-09-27T07:19:45.426Z","url":"/api/users/login"}
+{"body":{},"level":"info","message":"GET /api/products","method":"GET","params":{},"query":{},"timestamp":"2024-09-27T07:19:45.535Z","url":"/api/products"}
+{"body":{},"level":"info","message":"GET /api/users/check-session","method":"GET","params":{},"query":{},"timestamp":"2024-09-27T07:19:49.832Z","url":"/api/users/check-session"}
+{"body":{},"level":"info","message":"GET /api/products","method":"GET","params":{},"query":{},"timestamp":"2024-09-27T07:19:49.853Z","url":"/api/products"}
+{"body":{},"level":"info","message":"POST /api/users/logout","method":"POST","params":{},"query":{},"timestamp":"2024-09-27T07:19:52.643Z","url":"/api/users/logout"}
+{"body":{"password":"password123","username":"john"},"level":"info","message":"POST /api/users/login","method":"POST","params":{},"query":{},"timestamp":"2024-09-27T07:19:59.393Z","url":"/api/users/login"}
+{"body":{},"level":"info","message":"GET /api/products","method":"GET","params":{},"query":{},"timestamp":"2024-09-27T07:19:59.507Z","url":"/api/products"}
+{"body":{},"level":"info","message":"GET /api/products/2","method":"GET","params":{},"query":{},"timestamp":"2024-09-27T07:20:02.445Z","url":"/api/products/2"}
+{"body":{},"level":"info","message":"POST /api/users/logout","method":"POST","params":{},"query":{},"timestamp":"2024-09-27T07:20:03.841Z","url":"/api/users/logout"}
+{"body":{"password":"password123","username":"john"},"level":"info","message":"POST /api/users/login","method":"POST","params":{},"query":{},"timestamp":"2024-09-27T07:20:05.525Z","url":"/api/users/login"}
+{"body":{},"level":"info","message":"GET /api/products/2","method":"GET","params":{},"query":{},"timestamp":"2024-09-27T07:20:05.625Z","url":"/api/products/2"}
+{"body":{},"level":"info","message":"GET /api/products","method":"GET","params":{},"query":{},"timestamp":"2024-09-27T07:20:08.073Z","url":"/api/products"}
+{"body":{},"level":"info","message":"GET /api/products/4","method":"GET","params":{},"query":{},"timestamp":"2024-09-27T07:20:10.074Z","url":"/api/products/4"}
+{"body":{},"level":"info","message":"POST /api/users/logout","method":"POST","params":{},"query":{},"timestamp":"2024-09-27T07:20:11.424Z","url":"/api/users/logout"}
+{"body":{"password":"password123","username":"john"},"level":"info","message":"POST /api/users/login","method":"POST","params":{},"query":{},"timestamp":"2024-09-27T07:20:12.424Z","url":"/api/users/login"}
+{"body":{},"level":"info","message":"GET /api/products/4","method":"GET","params":{},"query":{},"timestamp":"2024-09-27T07:20:12.530Z","url":"/api/products/4"}
+{"body":{},"level":"info","message":"GET /api/users/check-session","method":"GET","params":{},"query":{},"timestamp":"2024-09-27T12:57:10.440Z","url":"/api/users/check-session"}
+{"body":{},"level":"info","message":"GET /api/users/check-session","method":"GET","params":{},"query":{},"timestamp":"2024-09-27T12:57:31.102Z","url":"/api/users/check-session"}
+{"body":{},"level":"info","message":"GET /api/users/check-session","method":"GET","params":{},"query":{},"timestamp":"2024-09-27T12:58:24.279Z","url":"/api/users/check-session"}
+{"body":{"password":"password123","username":"john"},"level":"info","message":"POST /api/users/login","method":"POST","params":{},"query":{},"timestamp":"2024-09-27T12:58:33.360Z","url":"/api/users/login"}
+{"body":{},"level":"info","message":"GET /api/products","method":"GET","params":{},"query":{},"timestamp":"2024-09-27T12:58:36.933Z","url":"/api/products"}
+{"body":{},"level":"info","message":"GET /api/products/1","method":"GET","params":{},"query":{},"timestamp":"2024-09-27T12:58:38.340Z","url":"/api/products/1"}
+{"body":{},"level":"info","message":"GET /api/products","method":"GET","params":{},"query":{},"timestamp":"2024-09-27T12:58:40.586Z","url":"/api/products"}
+{"body":{},"level":"info","message":"POST /api/users/logout","method":"POST","params":{},"query":{},"timestamp":"2024-09-27T12:58:43.161Z","url":"/api/users/logout"}
+{"body":{"password":"password123","username":"john"},"level":"info","message":"POST /api/users/login","method":"POST","params":{},"query":{},"timestamp":"2024-09-27T12:58:44.945Z","url":"/api/users/login"}
+{"body":{},"level":"info","message":"GET /api/products","method":"GET","params":{},"query":{},"timestamp":"2024-09-27T12:58:45.042Z","url":"/api/products"}
+{"body":{},"level":"info","message":"GET /api/users/check-session","method":"GET","params":{},"query":{},"timestamp":"2024-09-28T07:27:14.301Z","url":"/api/users/check-session"}
+{"body":{},"level":"info","message":"GET /api/users/check-session","method":"GET","params":{},"query":{},"timestamp":"2024-09-28T07:27:23.704Z","url":"/api/users/check-session"}
+{"body":{"password":"password123","username":"john"},"level":"info","message":"POST /api/users/login","method":"POST","params":{},"query":{},"timestamp":"2024-09-28T07:27:42.025Z","url":"/api/users/login"}
+{"body":{},"level":"info","message":"GET /api/users/check-session","method":"GET","params":{},"query":{},"timestamp":"2024-09-28T07:27:49.255Z","url":"/api/users/check-session"}
+{"body":{},"level":"info","message":"GET /api/users/check-session","method":"GET","params":{},"query":{},"timestamp":"2024-09-28T07:27:50.536Z","url":"/api/users/check-session"}
+{"body":{},"level":"info","message":"GET /api/products","method":"GET","params":{},"query":{},"timestamp":"2024-09-28T07:28:04.374Z","url":"/api/products"}
+{"body":{},"level":"info","message":"GET /api/products/1","method":"GET","params":{},"query":{},"timestamp":"2024-09-28T07:28:07.127Z","url":"/api/products/1"}
+{"body":{},"level":"info","message":"GET /api/products","method":"GET","params":{},"query":{},"timestamp":"2024-09-28T07:28:08.975Z","url":"/api/products"}
+{"body":{},"level":"info","message":"POST /api/users/logout","method":"POST","params":{},"query":{},"timestamp":"2024-09-28T07:28:12.015Z","url":"/api/users/logout"}
+{"body":{"password":"password123","username":"john"},"level":"info","message":"POST /api/users/login","method":"POST","params":{},"query":{},"timestamp":"2024-09-28T07:28:23.865Z","url":"/api/users/login"}
+{"body":{},"level":"info","message":"GET /api/products","method":"GET","params":{},"query":{},"timestamp":"2024-09-28T07:28:23.977Z","url":"/api/products"}
+{"body":{},"level":"info","message":"POST /api/users/logout","method":"POST","params":{},"query":{},"timestamp":"2024-09-28T07:28:27.305Z","url":"/api/users/logout"}
+{"body":{"password":"password123","username":"john"},"level":"info","message":"POST /api/users/login","method":"POST","params":{},"query":{},"timestamp":"2024-09-28T07:28:28.131Z","url":"/api/users/login"}
+{"body":{},"level":"info","message":"GET /api/products","method":"GET","params":{},"query":{},"timestamp":"2024-09-28T07:28:28.239Z","url":"/api/products"}
+{"body":{},"level":"info","message":"POST /api/users/logout","method":"POST","params":{},"query":{},"timestamp":"2024-09-28T07:28:29.729Z","url":"/api/users/logout"}
+{"body":{"password":"password123","username":"john"},"level":"info","message":"POST /api/users/login","method":"POST","params":{},"query":{},"timestamp":"2024-09-28T07:28:30.480Z","url":"/api/users/login"}
+{"body":{},"level":"info","message":"GET /api/products","method":"GET","params":{},"query":{},"timestamp":"2024-09-28T07:28:30.588Z","url":"/api/products"}
+{"body":{},"level":"info","message":"POST /api/users/logout","method":"POST","params":{},"query":{},"timestamp":"2024-09-28T07:28:32.097Z","url":"/api/users/logout"}
+{"body":{},"level":"info","message":"GET /api/users/check-session","method":"GET","params":{},"query":{},"timestamp":"2024-09-28T07:28:44.156Z","url":"/api/users/check-session"}
+{"body":{},"level":"info","message":"GET /api/users/check-session","method":"GET","params":{},"query":{},"timestamp":"2024-09-28T07:29:23.255Z","url":"/api/users/check-session"}
+{"body":{},"level":"info","message":"GET /api/users/check-session","method":"GET","params":{},"query":{},"timestamp":"2024-09-28T07:29:24.448Z","url":"/api/users/check-session"}
+{"body":{},"level":"info","message":"GET /api/users/check-session","method":"GET","params":{},"query":{},"timestamp":"2024-09-28T07:29:26.182Z","url":"/api/users/check-session"}
+{"body":{},"level":"info","message":"GET /api/users/check-session","method":"GET","params":{},"query":{},"timestamp":"2024-09-28T07:29:36.252Z","url":"/api/users/check-session"}
+{"body":{},"level":"info","message":"GET /api/users/check-session","method":"GET","params":{},"query":{},"timestamp":"2024-09-28T07:32:42.137Z","url":"/api/users/check-session"}
+{"body":{},"level":"info","message":"GET /api/users/check-session","method":"GET","params":{},"query":{},"timestamp":"2024-09-28T07:32:43.745Z","url":"/api/users/check-session"}
+{"body":{},"level":"info","message":"GET /api/users/check-session","method":"GET","params":{},"query":{},"timestamp":"2024-09-28T07:32:55.607Z","url":"/api/users/check-session"}
+{"level":"error","message":"data is not defined","metadata":{},"timestamp":"2024-09-30T12:52:44.870Z"}
+{"level":"error","message":"data is not defined","metadata":{},"timestamp":"2024-09-30T12:52:45.595Z"}
+{"body":{},"level":"info","message":"GET /favicon.ico","method":"GET","params":{},"query":{},"timestamp":"2024-09-30T12:52:45.738Z","url":"/favicon.ico"}
+{"level":"error","message":"data is not defined","metadata":{},"timestamp":"2024-09-30T12:54:08.970Z"}
+{"body":{},"level":"info","message":"GET /favicon.ico","method":"GET","params":{},"query":{},"timestamp":"2024-09-30T12:54:09.055Z","url":"/favicon.ico"}
+{"body":{},"level":"info","message":"GET /api/users/login","method":"GET","params":{},"query":{},"timestamp":"2024-09-30T12:56:41.752Z","url":"/api/users/login"}
+{"body":{},"level":"info","message":"GET /favicon.ico","method":"GET","params":{},"query":{},"timestamp":"2024-09-30T12:56:41.879Z","url":"/favicon.ico"}
+{"body":{},"level":"info","message":"GET /favicon.ico","method":"GET","params":{},"query":{},"timestamp":"2024-09-30T12:56:47.606Z","url":"/favicon.ico"}
+{"level":"error","message":"data is not defined","metadata":{},"timestamp":"2024-09-30T12:57:28.481Z"}
+{"body":{},"level":"info","message":"GET /favicon.ico","method":"GET","params":{},"query":{},"timestamp":"2024-09-30T12:57:28.605Z","url":"/favicon.ico"}
+{"level":"error","message":"data is not defined","metadata":{},"timestamp":"2024-09-30T12:57:29.449Z"}
+{"body":{},"level":"info","message":"GET /favicon.ico","method":"GET","params":{},"query":{},"timestamp":"2024-09-30T12:57:29.524Z","url":"/favicon.ico"}
+{"level":"error","message":"data is not defined","metadata":{},"timestamp":"2024-09-30T12:57:30.148Z"}
+{"body":{},"level":"info","message":"GET /favicon.ico","method":"GET","params":{},"query":{},"timestamp":"2024-09-30T12:57:30.215Z","url":"/favicon.ico"}
+{"level":"error","message":"data is not defined","metadata":{},"timestamp":"2024-09-30T12:57:30.598Z"}
+{"body":{},"level":"info","message":"GET /favicon.ico","method":"GET","params":{},"query":{},"timestamp":"2024-09-30T12:57:30.665Z","url":"/favicon.ico"}
+{"level":"error","message":"data is not defined","metadata":{},"timestamp":"2024-09-30T12:57:30.757Z"}
+{"body":{},"level":"info","message":"GET /favicon.ico","method":"GET","params":{},"query":{},"timestamp":"2024-09-30T12:57:30.811Z","url":"/favicon.ico"}
+{"level":"error","message":"data is not defined","metadata":{},"timestamp":"2024-09-30T12:57:30.924Z"}
+{"body":{},"level":"info","message":"GET /favicon.ico","method":"GET","params":{},"query":{},"timestamp":"2024-09-30T12:57:30.969Z","url":"/favicon.ico"}
+{"level":"error","message":"data is not defined","metadata":{},"timestamp":"2024-09-30T12:57:31.365Z"}
+{"body":{},"level":"info","message":"GET /favicon.ico","method":"GET","params":{},"query":{},"timestamp":"2024-09-30T12:57:31.433Z","url":"/favicon.ico"}
+{"level":"error","message":"data is not defined","metadata":{},"timestamp":"2024-09-30T12:57:31.831Z"}
+{"body":{},"level":"info","message":"GET /favicon.ico","method":"GET","params":{},"query":{},"timestamp":"2024-09-30T12:57:31.903Z","url":"/favicon.ico"}
+{"level":"error","message":"data is not defined","metadata":{},"timestamp":"2024-09-30T12:57:32.267Z"}
+{"body":{},"level":"info","message":"GET /favicon.ico","method":"GET","params":{},"query":{},"timestamp":"2024-09-30T12:57:32.339Z","url":"/favicon.ico"}
+{"level":"error","message":"data is not defined","metadata":{},"timestamp":"2024-09-30T12:57:32.997Z"}
+{"body":{},"level":"info","message":"GET /favicon.ico","method":"GET","params":{},"query":{},"timestamp":"2024-09-30T12:57:33.070Z","url":"/favicon.ico"}
+{"level":"error","message":"data is not defined","metadata":{},"timestamp":"2024-09-30T12:58:57.718Z"}
+{"body":{},"level":"info","message":"GET /favicon.ico","method":"GET","params":{},"query":{},"timestamp":"2024-09-30T12:58:57.807Z","url":"/favicon.ico"}
+{"level":"error","message":"data is not defined","metadata":{},"timestamp":"2024-09-30T12:59:30.330Z"}
+{"body":{},"level":"info","message":"GET /favicon.ico","method":"GET","params":{},"query":{},"timestamp":"2024-09-30T12:59:30.417Z","url":"/favicon.ico"}
+{"body":{},"level":"info","message":"GET /path/to/client/bundle.js","method":"GET","params":{},"query":{},"timestamp":"2024-09-30T13:01:43.186Z","url":"/path/to/client/bundle.js"}
+{"body":{},"level":"info","message":"GET /favicon.ico","method":"GET","params":{},"query":{},"timestamp":"2024-09-30T13:01:43.260Z","url":"/favicon.ico"}
+{"body":{},"level":"info","message":"GET /favicon.ico","method":"GET","params":{},"query":{},"timestamp":"2024-09-30T13:03:36.961Z","url":"/favicon.ico"}
+{"body":{},"level":"info","message":"GET /path/to/client/bundle.js","method":"GET","params":{},"query":{},"timestamp":"2024-09-30T13:04:36.480Z","url":"/path/to/client/bundle.js"}
+{"body":{},"level":"info","message":"GET /favicon.ico","method":"GET","params":{},"query":{},"timestamp":"2024-09-30T13:04:36.506Z","url":"/favicon.ico"}
+{"body":{},"level":"info","message":"GET /path/to/client/bundle.js","method":"GET","params":{},"query":{},"timestamp":"2024-09-30T13:04:51.750Z","url":"/path/to/client/bundle.js"}
+{"body":{},"level":"info","message":"GET /favicon.ico","method":"GET","params":{},"query":{},"timestamp":"2024-09-30T13:04:51.776Z","url":"/favicon.ico"}
+{"body":{},"level":"info","message":"GET /path/to/client/bundle.js","method":"GET","params":{},"query":{},"timestamp":"2024-09-30T13:04:52.539Z","url":"/path/to/client/bundle.js"}
+{"body":{},"level":"info","message":"GET /favicon.ico","method":"GET","params":{},"query":{},"timestamp":"2024-09-30T13:04:52.581Z","url":"/favicon.ico"}
+{"body":{},"level":"info","message":"GET /path/to/client/bundle.js","method":"GET","params":{},"query":{},"timestamp":"2024-09-30T13:05:05.607Z","url":"/path/to/client/bundle.js"}
+{"body":{},"level":"info","message":"GET /favicon.ico","method":"GET","params":{},"query":{},"timestamp":"2024-09-30T13:05:05.646Z","url":"/favicon.ico"}
+{"body":{},"level":"info","message":"GET /path/to/client/bundle.js","method":"GET","params":{},"query":{},"timestamp":"2024-09-30T13:05:06.274Z","url":"/path/to/client/bundle.js"}
+{"body":{},"level":"info","message":"GET /favicon.ico","method":"GET","params":{},"query":{},"timestamp":"2024-09-30T13:05:06.323Z","url":"/favicon.ico"}
+{"body":{},"level":"info","message":"GET /path/to/client/bundle.js","method":"GET","params":{},"query":{},"timestamp":"2024-09-30T13:05:06.568Z","url":"/path/to/client/bundle.js"}
+{"body":{},"level":"info","message":"GET /favicon.ico","method":"GET","params":{},"query":{},"timestamp":"2024-09-30T13:05:06.617Z","url":"/favicon.ico"}
+{"body":{},"level":"info","message":"GET /path/to/client/bundle.js","method":"GET","params":{},"query":{},"timestamp":"2024-09-30T13:05:06.732Z","url":"/path/to/client/bundle.js"}
+{"body":{},"level":"info","message":"GET /favicon.ico","method":"GET","params":{},"query":{},"timestamp":"2024-09-30T13:05:06.772Z","url":"/favicon.ico"}
+{"body":{},"level":"info","message":"GET /path/to/client/bundle.js","method":"GET","params":{},"query":{},"timestamp":"2024-09-30T13:06:04.547Z","url":"/path/to/client/bundle.js"}
+{"body":{},"level":"info","message":"GET /favicon.ico","method":"GET","params":{},"query":{},"timestamp":"2024-09-30T13:06:04.580Z","url":"/favicon.ico"}
+{"body":{},"level":"info","message":"GET /path/to/client/bundle.js","method":"GET","params":{},"query":{},"timestamp":"2024-09-30T13:06:05.218Z","url":"/path/to/client/bundle.js"}
+{"body":{},"level":"info","message":"GET /favicon.ico","method":"GET","params":{},"query":{},"timestamp":"2024-09-30T13:06:05.269Z","url":"/favicon.ico"}
+{"body":{},"level":"info","message":"GET /path/to/client/bundle.js","method":"GET","params":{},"query":{},"timestamp":"2024-09-30T13:07:13.519Z","url":"/path/to/client/bundle.js"}
+{"body":{},"level":"info","message":"GET /favicon.ico","method":"GET","params":{},"query":{},"timestamp":"2024-09-30T13:07:13.548Z","url":"/favicon.ico"}
+{"body":{},"level":"info","message":"GET /path/to/client/bundle.js","method":"GET","params":{},"query":{},"timestamp":"2024-09-30T13:07:14.021Z","url":"/path/to/client/bundle.js"}
+{"body":{},"level":"info","message":"GET /favicon.ico","method":"GET","params":{},"query":{},"timestamp":"2024-09-30T13:07:14.071Z","url":"/favicon.ico"}
+{"level":"error","message":"Cannot read properties of null (reading 'useRef')","metadata":{},"timestamp":"2024-09-30T13:21:37.764Z"}
+{"body":{},"level":"info","message":"GET /favicon.ico","method":"GET","params":{},"query":{},"timestamp":"2024-09-30T13:21:37.887Z","url":"/favicon.ico"}
+{"level":"error","message":"Cannot read properties of null (reading 'useRef')","metadata":{},"timestamp":"2024-09-30T13:33:15.759Z"}
+{"body":{},"level":"info","message":"GET /favicon.ico","method":"GET","params":{},"query":{},"timestamp":"2024-09-30T13:33:15.879Z","url":"/favicon.ico"}
+{"level":"error","message":"Cannot read properties of null (reading 'useRef')","metadata":{},"timestamp":"2024-09-30T13:34:53.891Z"}
+{"body":{},"level":"info","message":"GET /favicon.ico","method":"GET","params":{},"query":{},"timestamp":"2024-09-30T13:34:53.983Z","url":"/favicon.ico"}
+{"level":"error","message":"Cannot read properties of null (reading 'useRef')","metadata":{},"timestamp":"2024-09-30T13:35:57.812Z"}
+{"body":{},"level":"info","message":"GET /favicon.ico","method":"GET","params":{},"query":{},"timestamp":"2024-09-30T13:35:57.902Z","url":"/favicon.ico"}
+{"level":"error","message":"Cannot read properties of null (reading 'useRef')","metadata":{},"timestamp":"2024-09-30T13:40:36.940Z"}
+{"body":{},"level":"info","message":"GET /favicon.ico","method":"GET","params":{},"query":{},"timestamp":"2024-09-30T13:40:37.064Z","url":"/favicon.ico"}
+{"level":"error","message":"Cannot read properties of null (reading 'useRef')","metadata":{},"timestamp":"2024-09-30T13:40:38.085Z"}
+{"body":{},"level":"info","message":"GET /favicon.ico","method":"GET","params":{},"query":{},"timestamp":"2024-09-30T13:40:38.155Z","url":"/favicon.ico"}
+{"level":"error","message":"Cannot read properties of null (reading 'useRef')","metadata":{},"timestamp":"2024-09-30T13:40:38.953Z"}
+{"body":{},"level":"info","message":"GET /favicon.ico","method":"GET","params":{},"query":{},"timestamp":"2024-09-30T13:40:39.025Z","url":"/favicon.ico"}
+{"level":"error","message":"Cannot read properties of null (reading 'useRef')","metadata":{},"timestamp":"2024-09-30T13:40:39.506Z"}
+{"body":{},"level":"info","message":"GET /favicon.ico","method":"GET","params":{},"query":{},"timestamp":"2024-09-30T13:40:39.574Z","url":"/favicon.ico"}
+{"level":"error","message":"Cannot read properties of null (reading 'useRef')","metadata":{},"timestamp":"2024-09-30T13:41:37.972Z"}
+{"body":{},"level":"info","message":"GET /favicon.ico","method":"GET","params":{},"query":{},"timestamp":"2024-09-30T13:41:38.047Z","url":"/favicon.ico"}
+{"body":{},"level":"info","message":"GET /path/to/client/bundle.js","method":"GET","params":{},"query":{},"timestamp":"2024-09-30T13:42:13.384Z","url":"/path/to/client/bundle.js"}
+{"body":{},"level":"info","message":"GET /favicon.ico","method":"GET","params":{},"query":{},"timestamp":"2024-09-30T13:42:13.431Z","url":"/favicon.ico"}
+{"level":"error","message":"Cannot read properties of null (reading 'useRef')","metadata":{},"timestamp":"2024-09-30T13:43:23.619Z"}
+{"body":{},"level":"info","message":"GET /favicon.ico","method":"GET","params":{},"query":{},"timestamp":"2024-09-30T13:43:23.728Z","url":"/favicon.ico"}
+{"level":"error","message":"Cannot read properties of null (reading 'useRef')","metadata":{},"timestamp":"2024-09-30T13:49:37.771Z"}
+{"body":{},"level":"info","message":"GET /favicon.ico","method":"GET","params":{},"query":{},"timestamp":"2024-09-30T13:49:37.843Z","url":"/favicon.ico"}
+{"level":"error","message":"Cannot read properties of null (reading 'useRef')","metadata":{},"timestamp":"2024-09-30T13:51:31.206Z"}
+{"body":{},"level":"info","message":"GET /favicon.ico","method":"GET","params":{},"query":{},"timestamp":"2024-09-30T13:51:31.292Z","url":"/favicon.ico"}
+{"body":{},"level":"info","message":"GET /path/to/client/bundle.js","method":"GET","params":{},"query":{},"timestamp":"2024-09-30T14:04:44.805Z","url":"/path/to/client/bundle.js"}
+{"body":{},"level":"info","message":"GET /favicon.ico","method":"GET","params":{},"query":{},"timestamp":"2024-09-30T14:04:44.842Z","url":"/favicon.ico"}
+{"body":{},"level":"info","message":"GET /path/to/client/bundle.js","method":"GET","params":{},"query":{},"timestamp":"2024-09-30T14:05:48.065Z","url":"/path/to/client/bundle.js"}
+{"body":{},"level":"info","message":"GET /favicon.ico","method":"GET","params":{},"query":{},"timestamp":"2024-09-30T14:05:48.094Z","url":"/favicon.ico"}
+{"level":"error","message":"Cannot read properties of null (reading 'useState')","metadata":{},"timestamp":"2024-09-30T14:07:39.152Z"}
+{"body":{},"level":"info","message":"GET /favicon.ico","method":"GET","params":{},"query":{},"timestamp":"2024-09-30T14:07:39.257Z","url":"/favicon.ico"}
+{"body":{},"level":"info","message":"GET /path/to/client/bundle.js","method":"GET","params":{},"query":{},"timestamp":"2024-09-30T14:13:14.325Z","url":"/path/to/client/bundle.js"}
+{"body":{},"level":"info","message":"GET /favicon.ico","method":"GET","params":{},"query":{},"timestamp":"2024-09-30T14:13:14.382Z","url":"/favicon.ico"}
+{"body":{},"level":"info","message":"GET /path/to/client/bundle.js","method":"GET","params":{},"query":{},"timestamp":"2024-09-30T14:15:12.073Z","url":"/path/to/client/bundle.js"}
+{"body":{},"level":"info","message":"GET /favicon.ico","method":"GET","params":{},"query":{},"timestamp":"2024-09-30T14:15:12.122Z","url":"/favicon.ico"}
+{"body":{},"level":"info","message":"GET /api/users/check-session","method":"GET","params":{},"query":{},"timestamp":"2024-09-30T14:18:13.106Z","url":"/api/users/check-session"}
+{"body":{},"level":"info","message":"GET /api/users/check-session","method":"GET","params":{},"query":{},"timestamp":"2024-09-30T14:18:21.146Z","url":"/api/users/check-session"}
+{"body":{"password":"password123","username":"john"},"level":"info","message":"POST /api/users/login","method":"POST","params":{},"query":{},"timestamp":"2024-09-30T14:18:31.957Z","url":"/api/users/login"}
+{"body":{},"level":"info","message":"GET /api/products","method":"GET","params":{},"query":{},"timestamp":"2024-09-30T14:18:35.849Z","url":"/api/products"}
+{"body":{},"level":"info","message":"GET /api/products/1","method":"GET","params":{},"query":{},"timestamp":"2024-09-30T14:18:37.460Z","url":"/api/products/1"}
+{"body":{},"level":"info","message":"GET /api/users/check-session","method":"GET","params":{},"query":{},"timestamp":"2024-09-30T14:18:40.905Z","url":"/api/users/check-session"}
+{"body":{},"level":"info","message":"GET /api/products/1","method":"GET","params":{},"query":{},"timestamp":"2024-09-30T14:18:40.937Z","url":"/api/products/1"}
+{"body":{},"level":"info","message":"POST /api/users/logout","method":"POST","params":{},"query":{},"timestamp":"2024-09-30T14:18:50.272Z","url":"/api/users/logout"}
+{"body":{"password":"","username":""},"level":"info","message":"POST /api/users/login","method":"POST","params":{},"query":{},"timestamp":"2024-09-30T14:18:53.040Z","url":"/api/users/login"}
+{"body":{"password":"","username":"john"},"level":"info","message":"POST /api/users/login","method":"POST","params":{},"query":{},"timestamp":"2024-09-30T14:18:58.701Z","url":"/api/users/login"}
+{"body":{"password":"pssdfsd","username":"john"},"level":"info","message":"POST /api/users/login","method":"POST","params":{},"query":{},"timestamp":"2024-09-30T14:19:03.251Z","url":"/api/users/login"}
+{"body":{"password":"password123","username":"john"},"level":"info","message":"POST /api/users/login","method":"POST","params":{},"query":{},"timestamp":"2024-09-30T14:19:07.455Z","url":"/api/users/login"}
+{"body":{},"level":"info","message":"POST /api/users/logout","method":"POST","params":{},"query":{},"timestamp":"2024-09-30T14:19:10.503Z","url":"/api/users/logout"}

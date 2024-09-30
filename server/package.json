@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node -r @babel/register index.js"
   },
   "keywords": [],
   "author": "",
@@ -12,6 +13,11 @@
   "dependencies": {
     "bcrypt": "^5.1.1",
     "express": "^4.21.0",
-    "express-session": "^1.18.0"
+    "express-rate-limit": "^7.4.0",
+    "express-session": "^1.18.0",
+    "jsonwebtoken": "^9.0.2",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "winston": "3.4.0"
   }
 }

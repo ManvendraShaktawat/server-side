@@ -1,5 +1,17 @@
 import React, { useState } from "react";
 
+function saveAuthToken(token) {
+  sessionStorage.setItem("authToken", token);
+}
+
+export function fetchAuthToken() {
+  return sessionStorage.getItem("authToken");
+}
+
+function removeAuthToken() {
+  return sessionStorage.removeItem("authToken");
+}
+
 function Auth({ isAuthticated, setIsAuthticated }) {
   const [authMessage, setAuthMessage] = useState(null);
   const [username, setUsername] = useState("");
@@ -15,18 +27,24 @@ function Auth({ isAuthticated, setIsAuthticated }) {
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ username, password }),
     })
-      .then((res) => {
-        if (res.status === 200) {
-          setIsAuthticated(true);
+      .then((res) => res.json())
+      .then((data) => {
+        setAuthMessage(data.message);
+        if (data.token) {
+          saveAuthToken(data.token);
+          setTimeout(() => setIsAuthticated(true));
         }
-        return res.json();
       })
-      .then((data) => setAuthMessage(data.message))
       .catch((err) => console.error(err));
   };
 
   const handleCheckSession = () => {
-    fetch("/api/users/check-session")
+    const token = fetchAuthToken();
+    fetch("/api/users/check-session", {
+      headers: {
+        authorisation: token,
+      },
+    })
       .then((res) => {
         if (res.status === 200) {
           setIsAuthticated(true);
@@ -38,7 +56,10 @@ function Auth({ isAuthticated, setIsAuthticated }) {
   };
 
   const handleLogout = () => {
-    fetch("/api/users/logout")
+    removeAuthToken();
+    fetch("/api/users/logout", {
+      method: "POST",
+    })
       .then((res) => {
         if (res.status === 200) {
           setIsAuthticated(false);

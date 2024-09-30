@@ -4,8 +4,11 @@
  * 'next' needs to be called with an argument, i.e. next(err)
  */
 
+const logger = require("../logger");
+
 module.exports = function (err, req, res, next) {
-  console.error(err.stack);
+  //winston logger
+  logger.error(err.message, { metadata: err });
   res.status(err.status || 500).json({
     error: { message: err.message || "Internal server error" },
     stack: process.env.NODE_ENV === "development" ? err.stack : {},
